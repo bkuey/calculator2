@@ -42,3 +42,11 @@ var number1 = parseInt(prompt("Enter your weight in pounds:"));
 var number2 = parseInt(prompt("Enter your height in inches:"));
 var result = bodyMass(number1, number2);
 alert(result);
+
+var temp= function(number1){
+return (number1 * 9/5 + 32)
+};
+
+var number1 = parseInt(prompt("Enter degrees in Celsius:"));
+var result = temp(number1);
+alert(result);
