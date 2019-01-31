@@ -50,3 +50,11 @@ return (number1 * 9/5 + 32)
 var number1 = parseInt(prompt("Enter degrees in Celsius:"));
 var result = temp(number1);
 alert(result);
+
+var gL= function(number1){
+return (number1 * 3.78541)
+};
+
+var number1 = parseInt(prompt("Enter measurement in gallons"));
+var result = gL(number1);
+alert(result);
